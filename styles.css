@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    #work {
+        flex-direction: column;
+        align-items: center;
+    }
+    .work-experience {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+body {
+    background-image: linear-gradient(90deg, rgb(66, 245, 248) 0%,rgb(3, 194, 29) 100%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+#profile {
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    display: flex;
+    justify-content: end;
+}
+
+.socials {
+    margin: 1rem;
+}
+
+#bio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#skills {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#work-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#work {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.work-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 2rem;
+}
+
+.field {
+    display: flex;
+    margin: 1rem 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
