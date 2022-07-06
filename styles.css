@@ -18,24 +18,29 @@ body {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 #name {
     display: flex;
+    width: 30%;
     justify-content: center;
+    text-align: center;
     font-size: 3rem;
 }
 
 #profile {
+    width: 40%;
     display: flex;
     justify-content: center;
 }
 
 #contact {
+    width: 30%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .socials {
@@ -46,6 +51,8 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+    text-align: center;
 }
 
 #skills {
@@ -64,22 +71,53 @@ nav {
 #work {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .work-experience {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: flex-start;
     margin: 0 2rem;
+    padding: 1rem 2rem;
 }
 
 .field {
     display: flex;
     margin: 1rem 0;
+    text-align: center;
 }
 
 main {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
 }
+
+.justspace {
+    height: 4rem;
+}
+
+.image-header {
+    color: rgb(41, 2, 85);
+}
+
+.minicap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.imagewrapper img {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
