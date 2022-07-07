@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     nav {
         flex-direction: column;
     }
@@ -31,6 +31,31 @@ nav {
     font-size: 3rem;
 }
 
+.fa {
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    width: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
 #profile {
     width: 40%;
     display: flex;
@@ -41,7 +66,6 @@ nav {
     width: 30%;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .socials {
@@ -90,6 +114,7 @@ nav {
     display: flex;
     margin: 1rem 0;
     text-align: center;
+    height: 2rem;
 }
 
 .projects-header {
@@ -112,11 +137,11 @@ main {
 }
 
 .justspace {
-    height: 4rem;
+    height: 4rem;   
 }
 
 .image-header {
-    color: rgb(41, 2, 85);
+    color: rgb(0, 8, 119);
 }
 
 .minicap {
