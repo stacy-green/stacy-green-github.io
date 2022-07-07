@@ -7,8 +7,9 @@
         align-items: center;
     }
     .work-experience {
-        align-items: center;
+        align-items: flex-start;
         text-align: center;
+        justify-content: flex-start;
     }
 }
 
@@ -77,10 +78,11 @@ nav {
 .work-experience {
     display: flex;
     flex-direction: column;
+    flex: 1;
     align-items: center;
     justify-content: flex-start;
     margin: 0 2rem;
-    padding: 1rem 2rem;
+    padding: 0 0;
 }
 
 .field {
@@ -113,6 +115,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding: 0 0;
 }
 
 .imagewrapper img {
