@@ -13,6 +13,12 @@
     }
 }
 
+@media only screen and (min-width: 769px) {
+    #contact {
+        flex-wrap: wrap;
+    }
+}
+
 body {
     background-image: linear-gradient(90deg, rgb(48, 100, 241) 0%,rgb(10, 252, 43) 100%);
 }
