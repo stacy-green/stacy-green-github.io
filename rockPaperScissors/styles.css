@@ -1,0 +1,58 @@
+h1 {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  width: 30vw;
+  height: 30vw;
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+.rock {
+  background-image: url("assets/rock.png");
+  background-color: #EF4444;
+}
+.paper {
+  background-image: url("assets/paper.png");
+  background-color: #EAB308;
+}
+.scissors {
+  background-image: url("assets/scissors.png");
+  background-color: #3B82F6;
+}
+
+#gamelog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  width: 50vw;
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.win {
+  background-color: #86EFAC;
+}
+
+.lose {
+  background-color: #FCA5A5;
+}
+
+.tie {
+  background-color: #FDE047;
+}
