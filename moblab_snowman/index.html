@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snowman</title>
+    <script defer src="./main.js"></script>
+    <style>
+        html {
+            background-color: #1E293B;
+            color: white;
+        }
+        .letter {
+            outline: 1px solid white;
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+            display: inline-block;
+            text-align: center;
+        }
+        #snowman-img {
+            width: 500px;
+            margin: 0 auto;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="letters-div"></div>
+    <div id="snowman">
+        <img src="https://www.hanginghyena.com/static/branding/art/Snowman-1.jpg" id="snowman-img" alt="A picture of a snowman">
+    </div>
+    <div id="user-interface"></div>
+    <div  class="guess-container">
+        <input type="text" id="guess-word" placeholder="Guess word">
+        <button id="guess-btn"></button>
+    </div>
+
+</body>
+</html>
