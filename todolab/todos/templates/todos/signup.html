@@ -1,0 +1,11 @@
+{% extends 'todos/base.html' %}
+
+{% block title %}Signup{% endblock %}
+
+{% block content %}
+<h1>Signup</h1>
+<p>{{request.user.username}}</p>
+
+{% include 'todos/_form.html' with path="signup" button_text="Signup" %}
+
+{% endblock %}

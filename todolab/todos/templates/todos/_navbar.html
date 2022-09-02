@@ -1,0 +1,16 @@
+
+<nav>
+    <h2>
+      <a href=" {% url 'index' %} ">Todo App</a>
+    </h2>
+    <div class="links">
+      <!-- If user is logged in, show logout button -->
+      {% if not request.user.is_anonymous %}
+      <a href="{% url 'logout' %}">logout</a>
+      {% else %}
+      <!-- If no user logged in, show login/signup buttons-->
+      <a href="{% url 'login' %}">login</a>
+      <a href="{% url 'signup' %}">signup</a>
+      {% endif %}
+    </div>
+  </nav>

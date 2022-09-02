@@ -1,0 +1,14 @@
+{% extends 'todos/base.html' %}
+
+{% block title %}
+Login
+{% endblock title %}
+
+{% block content %}
+
+<h1>Login</h1>
+{% include 'todos/_form.html' with path="login" button_text="Login" %}
+
+{% endblock content %}
+
+
